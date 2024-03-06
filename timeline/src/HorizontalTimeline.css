@@ -1,0 +1,28 @@
+.horizontal-timeline {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+  }
+  
+  .timeline-item {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust as needed */
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .timeline-item-content {
+    padding: 10px;
+  }
+  
+  .timeline-item-title {
+    margin: 0;
+  }
+  
+  .timeline-item-date {
+    color: #666;
+    margin: 5px 0;
+  }
+  
