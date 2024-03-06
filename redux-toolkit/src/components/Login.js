@@ -12,7 +12,7 @@ function Login() {
         <button onClick={() => dispatch(login({ username: username }))}>
           Submit
         </button>
-        <button type="submit">Logout</button>
+        <button onClick={()=>dispatch(logout())}>Logout</button>
     </div>
   );
 }
